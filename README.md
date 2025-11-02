@@ -4,6 +4,7 @@
 make file immunable:
 
 gcc -O2 -Wall immut.c -o immut
+
 ./immut +i /root/king.txt  
 
 lsattr /root/king.txt    # უნდა ჩანდეს i ფლაგი
